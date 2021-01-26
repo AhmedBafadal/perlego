@@ -1,0 +1,5 @@
+
+country-converter==0.7.1
+Django==2.2.0
+djangorestframework==3.12.2
+psycopg2==2.8.6
