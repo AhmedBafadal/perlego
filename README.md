@@ -19,6 +19,14 @@ docker-compose run app sh -c "python manage.py createsuperuser"
 docker-compose up
 ```
 
+# Method
+```
+1. Please access /upload endpoint to upload xml
+2. Uploaded xml files can be viewed at /book endpoint
+3. To view admin page please access /admin and login with credentials
+4. If any errors please shut down docker service and restart
+```
+
 # Testing 
 ```
 docker-compose run app sh -c "python manage.py test"
